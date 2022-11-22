@@ -2,26 +2,40 @@
     position: relative;
     width: 200PX;
     height: 226PX;
-    border: 0PX solid blue;
+    background: #E0E0E0;
     text-align: center
 }
-.article-img{
+
+.article-img {
     width: 130PX;
     height: 130PX;
     position: absolute;
     top: 0px;
     left: 50%;
-    transform: translate(-50%,0)
+    transform: translate(-50%, 0)
 }
-.article-item{
+
+.article-item {
     top: 140px;
     position: absolute;
-    margin: unset
+    margin: unset;
     display: inline;
+    font-family: Roboto;
+
 }
-h2{
-    margin: unset
+
+h2 {
+    margin: unset;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
 }
-p{
-    margin: 10px 0px 18px 0px
+
+p {
+    margin: 10px 0px 0px 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
 }
