@@ -1,18 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
     line-height: 0;
     font-size: 0;
+    background: #E5E5E5;
 }
+
+article,
+div,
+h2,
+p,
+img {
+    background: #E0E0E0;
+}
+
 .article {
     position: relative;
     width: 200PX;
     height: 226PX;
-    background: #E0E0E0;
     text-align: center;
-    display:inline-block;
-    margin:15px 15px;
+    display: inline-block;
+    margin: 15px 15px;
 }
 
 .article-img {
@@ -35,7 +44,6 @@ h2 {
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;
-    letter-spacing: 0em;
 }
 
 p {
@@ -43,5 +51,4 @@ p {
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
-    letter-spacing: 0em;
 }
