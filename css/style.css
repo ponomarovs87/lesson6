@@ -18,8 +18,6 @@
 .article-item {
     top: 140px;
     position: absolute;
-    margin: unset;
-    display: inline;
     font-family: Roboto;
 
 }
