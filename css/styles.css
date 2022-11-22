@@ -3,7 +3,9 @@
     width: 200PX;
     height: 226PX;
     background: #E0E0E0;
-    text-align: center
+    text-align: center;
+    display:inline-block;
+    margin:15px 15px;
 }
 
 .article-img {
@@ -12,14 +14,13 @@
     position: absolute;
     top: 0px;
     left: 50%;
-    transform: translate(-50%, 0)
+    transform: translate(-50%, 0);
 }
 
 .article-item {
     top: 140px;
     position: absolute;
     font-family: Roboto;
-
 }
 
 h2 {
