@@ -1,7 +1,16 @@
 .article {
+    position: relative;
     width: 200PX;
     height: 226PX;
     border: 1PX solid blue;
     padding: 15px;
     text-align: center
+}
+.article-img{
+    width: 130PX;
+    height: 130PX;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%,0)
 }
