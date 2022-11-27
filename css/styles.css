@@ -36,7 +36,6 @@ img {
 .article-item {
     top: 140px;
     position: absolute;
-    font-family: Roboto;
 }
 
 h2 {
@@ -44,6 +43,7 @@ h2 {
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;
+    font-family: 'Roboto bold';
 }
 
 p {
@@ -51,4 +51,5 @@ p {
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
+    font-family: 'Roboto';
 }
